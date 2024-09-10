@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "TestPaymentServices"
-    s.version      = "0.0.2"
+    s.version      = "0.0.3"
     s.summary      = "Hyper visualization and payment processing."
     s.description  = <<-DESC
                     Create payment experiences for user to improve conversion and success rate.
@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "12.0"
     
-    s.source       = { :git => "https://github.com/balaganesh-juspay/test-wrapper-sdk.git", :tag => 'v0.0.2' }
+    s.source       = { :git => "https://github.com/balaganesh-juspay/test-wrapper-sdk.git", :tag => 'v0.0.3' }
 
     s.source_files = '**/*.{h,m}'
     s.resources    = ['Fuse.rb']
 
-    s.dependency 'HyperSDK', '0.0.2'
+    s.dependency 'HyperSDK', '0.0.3'
 end
